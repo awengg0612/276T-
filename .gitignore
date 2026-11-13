@@ -1,0 +1,35 @@
+# 虛擬環境
+venv*/
+.venv/
+env/
+
+# Python 暫存
+__pycache__/
+*.pyc
+
+# 編輯器
+.vscode/
+.idea/
+
+# 機密
+.env
+*.key
+*.pem
+
+# 備份與暫存
+*.bak*
+~$*
+
+# 測試資料與一切文件檔（可能含個資，一律不上傳）
+測試用資料/
+*.xlsx
+*.xls
+*.csv
+*.docx
+*.pdf
+*.txt
+!requirements.txt
+
+# 系統檔
+.DS_Store
+Thumbs.db

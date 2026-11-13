@@ -1,0 +1,25 @@
+# 請使用 Python 3.12（ANJANA 鎖定 numpy 2.0.2 / pandas 2.3.3，3.13 以上無現成套件）
+
+# 後端
+fastapi
+uvicorn
+python-multipart
+
+# 檔案處理
+pandas==2.3.3
+numpy==2.0.2
+openpyxl
+python-docx
+pdfplumber
+pypdf
+PyPDF2
+reportlab
+requests
+
+# k 匿名
+anjana
+pycanon
+
+# 選用：中文 NER（CKIP），體積大，首次執行會下載模型
+# ckip-transformers
+# torch
